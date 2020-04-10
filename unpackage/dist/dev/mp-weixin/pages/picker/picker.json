@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "采用 EvanMa编写的省市区三级联动和自带时间控件",
+  "usingComponents": {
+    "simple-address": "/components/simple-address/simple-address"
+  }
+}

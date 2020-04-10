@@ -1,0 +1,1 @@
+<view class="content"><view class="text-area"><block a:for="{{pageList}}" a:for-item="item" a:for-index="__i0__" a:key="id"><view><view class="list-img"><view><image style="width:120rpx;height:120rpx;" src="{{item.img}}"></image></view><text>{{item.title}}</text></view></view></block></view></view>

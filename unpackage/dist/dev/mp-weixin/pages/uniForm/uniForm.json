@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "采用 EvanMa编写的表单验证组件",
+  "usingComponents": {
+    "evan-form": "/components/evan-form/evan-form",
+    "evan-form-item": "/components/evan-form/evan-form-item"
+  }
+}

@@ -1,0 +1,35 @@
+
+.content {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.list-img{
+		width: calc(100% - 70rpx);
+		height: 160rpx;
+		background-color: rgba(205, 201, 176, 0.9);
+		margin: 0rpx 20rpx 10rpx 20rpx;
+		padding: 15rpx 15rpx;
+		border-radius: 10rpx;
+}
+.text-area {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		width: 100%;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		        flex-direction: column;
+}
+

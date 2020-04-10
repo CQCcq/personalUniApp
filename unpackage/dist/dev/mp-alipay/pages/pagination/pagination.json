@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "采用uni-ui插件分页",
+  "usingComponents": {
+    "uni-pagination": "/node-modules/npm-scope-dcloudio/uni-ui/lib/uni-pagination/uni-pagination"
+  }
+}

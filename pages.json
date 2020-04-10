@@ -1,0 +1,110 @@
+//该文件用来对uni-app进行全局配置，决定页面文件的路径、窗口样式、原生的导航栏、底部的原生tabbar等
+{
+	//pages: 对象数组类型，必填项，设置页面路径及窗口表现
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	
+		{
+		    "path" : "pages/map/map",
+		    "style" : {
+				"navigationBarTitleText":"地图"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "测试用例"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "测试用例"
+			}
+		},
+		{
+			"path": "pages/personal/personal",
+			"style": {
+				"navigationBarTitleText": "测试用例"
+			}
+		},
+		{
+			"path": "pages/wordList/wordList",
+			"style": {
+				"navigationBarTitleText": "列表页"
+			}
+		},
+		{
+			"path": "pages/pagination/pagination",
+			"style": {
+				"navigationBarTitleText": "采用uni-ui插件分页"
+			}
+		},
+		{
+			"path": "pages/uniForm/uniForm",
+			"style": {
+				"navigationBarTitleText": "采用 EvanMa编写的表单验证组件"
+			}
+		}
+	    ,{
+            "path" : "pages/picker/picker",
+            "style" : {
+				"navigationBarTitleText": "采用 EvanMa编写的省市区三级联动和自带时间控件"
+			}
+        },
+		{
+		    "path" : "pages/landing/landing",
+		    "style" : {
+				"navigationBarBackgroundColor": "#c36100",
+				"navigationBarTitleText":"登陆页"
+			}
+		}
+    ],
+	//globalStyle  对象类型，非必填，设置页面的窗口表现
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "测试用例",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	//easycom 对象类型 非必填，组件自动引入规则
+	"easycom":{},
+	//tabBar 对象类型 非必填 设置底部tab的表现
+	"tabBar":{
+				"color": "#7A7E83",
+		        "selectedColor": "#3cc51f",
+		        "borderStyle": "black",
+		        "backgroundColor": "#ffffff",
+		        "height": "50px",
+		        "fontSize": "10px",
+		        "iconWidth": "24px",
+		        "spacing": "3px",
+				"list":[
+					{
+					"pagePath": "pages/index/index",
+					"iconPath": "static/img/index.png",
+					"selectedIconPath": "static/img/selectIndex.png",
+					"text": "主页"
+					},
+					{
+					"pagePath": "pages/login/login",
+					"iconPath": "static/img/shop.png",
+					"selectedIconPath": "static/img/selectShop.png",
+					"text": "商品页"
+					},
+					{
+					"pagePath": "pages/personal/personal",
+					"iconPath": "static/img/personal.png",
+					"selectedIconPath": "static/img/selectPersonal.png",
+					"text": "个人中心"
+					}
+				]
+	},
+	//condition 对象类型 非必填 启动模式配置
+	"condition":{},
+	//subPackages 数组对象类型 非必填 分包加载配置
+	// "subPackages":[{}],
+	//preloadRule 对象类型 非必填 分包预下载规则
+	"preloadRule":{}
+	//workers 字符串类型 非必填 Worker代码放置的目录
+	// "workers":""
+}

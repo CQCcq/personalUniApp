@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/map/map",
+    "pages/index/index",
+    "pages/login/login",
+    "pages/personal/personal",
+    "pages/wordList/wordList",
+    "pages/pagination/pagination",
+    "pages/uniForm/uniForm",
+    "pages/picker/picker",
+    "pages/landing/landing"
+  ],
+  "subPackages": [],
+  "window": {
+    "defaultTitle": "测试用例",
+    "titleBarColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "textColor": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "backgroundColor": "#ffffff",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "name": "主页",
+        "icon": "static/img/index.png",
+        "activeIcon": "static/img/selectIndex.png"
+      },
+      {
+        "pagePath": "pages/login/login",
+        "name": "商品页",
+        "icon": "static/img/shop.png",
+        "activeIcon": "static/img/selectShop.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "name": "个人中心",
+        "icon": "static/img/personal.png",
+        "activeIcon": "static/img/selectPersonal.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "mescroll-body": "/components/mescroll-uni/mescroll-body",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni"
+  }
+}

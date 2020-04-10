@@ -1,0 +1,26 @@
+$page_login-color:#f90;
+//sass变量声明
+.page{
+	width: calc(100% - 36rpx);
+	padding: 18rpx 18rpx;
+	margin-top: 30rpx;
+	background-color: red($color: #d1d1d1);
+	//嵌套css规则
+	//&父选择器标识符
+	//&代表的是父选择器，且何以放在任何选择器可出现的地方
+	//当包含父选择器标识符的嵌套规则被打开时，他不会像后代选择器
+	//那样进行拼接，而是&被父选择器直接替换
+	& .page_login{
+		width: calc(100% - 50rpx);
+		padding: 10rpx 25rpx;
+		height: 60rpx;
+		background-color: #ffffff;
+		box-shadow: 0 4rpx 25rpx 0 rgba(0,0,0,.1);
+		//sass变量引用
+		color: $page_login-color;
+		//当嵌套规则被打开时，&被父选择器直接替换
+		&:hover {
+			color: red;
+		}
+	}
+}

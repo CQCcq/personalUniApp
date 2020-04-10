@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "采用uni-ui插件分页",
+  "usingComponents": {
+    "uni-pagination": "/node-modules/@dcloudio/uni-ui/lib/uni-pagination/uni-pagination"
+  }
+}
